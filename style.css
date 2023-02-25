@@ -83,7 +83,7 @@ ul#references li{
     display: flex;
     width: 50%;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     left: 25%;
 }
@@ -135,6 +135,7 @@ a:hover {color:#deaebc;
     flex-direction: row;
     justify-content:space-evenly;
     width: 100%;
+    max-width: 100%;
     background-color: black;
     color: #9ebf90;
 }
