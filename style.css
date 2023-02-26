@@ -243,7 +243,7 @@ a:hover {color:#deaebc;
 
 .poemAbout {
     width: 100%;
-    margin-top: 20px;
+    padding-bottom:4%;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 20px;
     display: flex;
@@ -255,7 +255,6 @@ a:hover {color:#deaebc;
     flex:1;
     flex-direction: column;
     justify-content: space-around;
-    margin-top:30px;
     white-space: pre;
     line-height: 75%;
     font-size: 20px;
