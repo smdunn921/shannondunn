@@ -241,7 +241,7 @@ a:hover {color:#deaebc;
 
 /*general pages*/
 
-.poemAbout {
+.poemAbout{
     width: 100%;
     padding-bottom:4%;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -250,7 +250,7 @@ a:hover {color:#deaebc;
     text-align: center;
     line-height: 150%;
 }
-.video {
+.video{
     max-width:100%;
     flex:1;
     flex-direction: column;
@@ -289,4 +289,34 @@ iframe {
     box-sizing: border-box;
 }
 /* end stuff for poem project */
+
+/* socials */
+.socAbout {
+    width: 100%;
+    padding-bottom:4%;
+    padding-left:3%;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+}
+.posts {
+    max-width:100%;
+    flex:1;
+    flex-direction: column;
+    justify-content: space-around;
+    white-space: pre;
+}
+#left{
+    max-width:100%;
+    flex:1;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#right{
+    max-width:100%;
+    flex:1;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 3.5%;
+}
 
