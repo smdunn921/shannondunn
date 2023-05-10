@@ -293,30 +293,32 @@ iframe {
 /* socials */
 .socAbout {
     width: 100%;
-    padding-bottom:4%;
     padding-left:3%;
     font-size: 20px;
     display: flex;
     text-align: center;
 }
+.socAbout img {
+    max-width: 70%;
+    margin-bottom: 10%;
+}
 .posts {
     max-width:100%;
     flex:1;
     flex-direction: column;
-    justify-content: space-around;
-    white-space: pre;
 }
 #left{
     max-width:100%;
     flex:1;
     justify-content: space-between;
     flex-direction: column;
+    margin-bottom: 5%;
 }
 #right{
     max-width:100%;
     flex:1;
     justify-content: space-between;
     flex-direction: column;
-    margin-top: 3.5%;
+    margin-bottom: 5%;
 }
 
