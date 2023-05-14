@@ -144,10 +144,12 @@ a:hover {color:#deaebc;
     font-size: 22px;
     text-align: center;
     color: #9ebf90;
+    display:block;
 }
 
 #navbar a:hover {color:#deaebc;
 }
+
 
 #navbar li:hover > a, #navbar .current-item > a, #navbar li:hover > li:hover > a {
     text-decoration:none;
@@ -191,7 +193,7 @@ a:hover {color:#deaebc;
     color:inherit;
 
     /* Spacing */
-    padding: 16px 16px;
+    padding: 13px 13px;
 
     /* Used to position the sub nested-dropdowns */
     position: relative;
@@ -239,7 +241,7 @@ a:hover {color:#deaebc;
 }
 /*end navbar*/
 
-/*general pages*/
+/*poem project*/
 
 .poemAbout{
     width: 100%;
@@ -321,4 +323,4 @@ iframe {
     flex-direction: column;
     margin-bottom: 5%;
 }
-
+/* end socials */
